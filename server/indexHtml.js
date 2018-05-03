@@ -71,6 +71,7 @@ const IndexHtml = ({ helmet, initialState, markup, bundles }) => {
         ${preloadScripts(bundles)}
         ${helmet.link.toString()}
         ${cssLinks()}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         ${helmet.style.toString()}
         ${helmet.script.toString()}
         ${helmet.noscript.toString()}

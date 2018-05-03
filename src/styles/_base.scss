@@ -4,22 +4,17 @@ body {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-size: 16px;
   padding: 0;
   margin: 0;
-  color: $blue-dark;
+  color: $main-font-color;
+  background: $main-background;
 }
 
 #root {
   min-height: 100%;
   position: relative;
-}
-
-nav {
-  padding: 20px;
-  background: $gray-light;
-  margin-bottom: 40px;
 }
 
 .main {
@@ -29,7 +24,7 @@ nav {
 }
 
 footer {
-  background: $blue-dark;
+  background: #fff;
   width: 100%;
   position: absolute;
   bottom: 0;
