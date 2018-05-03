@@ -2,12 +2,14 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
+import Hero from './home/Hero';
+
 export class Home extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Home page</h1>
+      <div className={`home`}>
+        <Hero />
       </div>
     );
   }

@@ -1,4 +1,4 @@
-export const title = 'React SSR Boilerplate';
+export const title = 'Find the best restaurants, cafés, and bars';
 
 export const meta = [
   {
@@ -14,11 +14,11 @@ export const meta = [
   },
   {
     name: 'description',
-    content: 'Boilerplate for React apps with routing & server side rendering'
+    content: 'Find the best restaurants, cafés, and bars near you and any location and see the reviews, ratings, menu and order - all in one place!'
   },
   {
     name: 'theme-color',
-    content: '#00D1E8'
+    content: '#007bff'
   }
 ];
 

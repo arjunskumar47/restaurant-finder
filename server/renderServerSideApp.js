@@ -11,8 +11,10 @@ import App from '../src/App';
 import configureStore from '../src/utils/configureStore';
 import fetchDataForRender from './fetchDataForRender';
 
+import AppConfig from './config/AppConfig';
+
 const renderServerSideApp = (req, res) => {
-  const store = configureStore(undefined, { logger: false });
+  const store = configureStore({app: {config: AppConfig}}, { logger: false });
 
   fetchDataForRender(req, store).then(() => {
     const context = {};
