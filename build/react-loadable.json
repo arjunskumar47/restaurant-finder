@@ -646,7 +646,7 @@
       "file": "static/js/main.0cac6003.js.map"
     }
   ],
-  "./../../webpack/buildin/global.js": [
+  "./../webpack/buildin/global.js": [
     {
       "id": 7,
       "name": "./node_modules/webpack/buildin/global.js",
