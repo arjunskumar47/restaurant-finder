@@ -1,17 +1,14 @@
-export const searchLocation = ( text ) => {
+export const SET_SEARCH_LOCATION = 'SET_SEARCH_LOCATION';
+
+export const setSearchLocation = ( params ) => {
 
   return dispatch => {
 
-    console.log('Inside dispatch fn', text);
     dispatch({
-      type: 'TEST',
-      payload: {}
+      type: SET_SEARCH_LOCATION,
+      payload: params
     });
 
   }
-
-};
-
-export const getRestaurantsForLocation = () => {
 
 };

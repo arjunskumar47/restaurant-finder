@@ -8,7 +8,8 @@ const AppConfig = () => {
 
   return {
     ZomatoKey: '011310d3cbdf9890aeeb51e341c8d2f4',
-    apiBase: 'https://developers.zomato.com/api/v2.1/'
+    GoogleMapsKey: 'AIzaSyCNb8p7HFohRWCy-BdIVtJznWjOHLA7tZs',
+    apiBase: 'https://developers.zomato.com/api/v2.1'
   }
 
 };

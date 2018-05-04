@@ -1,11 +1,12 @@
 import axios from 'axios';
+import AppConfig from './../../server/config/AppConfig';
 
 class ApiConnection {
 
   constructor() {
 
-    this.API_BASE = '';
-    this.AUTH_TOKEN = '';
+    this.API_BASE = AppConfig.apiBase;
+    this.AUTH_TOKEN = AppConfig.ZomatoKey;
     this.REST_METHODS = {
       1: 'GET',
       2: 'POST',
@@ -81,16 +82,6 @@ class ApiConnection {
    */
   remove( url, data ) {
     return this._makeRequest({url, method: 4, data });
-  }
-
-  setConfig(token, url) {
-
-    if( token )
-      this.AUTH_TOKEN = token;
-
-    if( url )
-      this.API_BASE = url;
-
   }
 
   getConfig( key ) {

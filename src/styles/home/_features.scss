@@ -1,0 +1,25 @@
+.Features {
+  background: #fff;
+
+  &-inner {
+    color: $meta-text;
+
+    &-item {
+      padding: 20px 15px;
+
+      &-main {
+        font-size: 2.8em;
+        margin-bottom: 0;
+        font-weight: 600;
+      }
+
+      &-meta {
+        font-size: .8em;
+        text-transform: uppercase;
+      }
+
+    }
+
+  }
+
+}

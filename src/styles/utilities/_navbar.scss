@@ -1,0 +1,38 @@
+.Navbar {
+  padding: 10px;
+  text-align: center;
+  background: rgba( 255, 255, 255, 0.7 );
+
+  & a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: $green;
+    line-height: 1;
+    margin-right: 4px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all .4s;
+    border-radius: 20px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.active {
+      color: #fff;
+      background: $green;
+      border-color: $green;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+    }
+
+  }
+
+}

@@ -3,13 +3,15 @@ import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
 
 import Hero from './home/Hero';
+import Features from './home/Features';
 
-export class Home extends React.Component {
+class Home extends React.Component {
 
   render() {
     return (
       <div className={`home`}>
         <Hero />
+        <Features />
       </div>
     );
   }
